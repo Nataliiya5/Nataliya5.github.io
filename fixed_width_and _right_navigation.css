@@ -1,0 +1,40 @@
+.container{
+	margin: 0 auto;
+	width: 700px;
+	background: bisque;
+	box-sizing: border-box;
+}
+	header{
+	    text-align: center; 
+	    padding: 5px; 
+	    background: skyblue;
+	    color: navy; 
+	}
+	aside{
+	    display: inline-block;
+	    width: 175px;
+	    padding: 10px;
+	    vertical-align: top;
+	    background: bisque;
+	    float: right;
+	}
+	.list{
+		list-style: none;
+	}
+	    .list__link{
+			padding: 10px;
+		}
+	article{
+	    display: inline-block;
+	    width: 480px;
+	    padding: 10px;
+	    vertical-align: top;
+	    background: salmon;
+	}
+	footer{
+		position: relative;
+		width: 700px;
+		background: limegreen;
+		box-sizing: border-box;
+	    height: 40px;
+	}

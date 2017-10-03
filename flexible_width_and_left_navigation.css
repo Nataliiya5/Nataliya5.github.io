@@ -1,0 +1,42 @@
+.container{
+	position: relative;
+	margin: 0 auto;
+	width: 80%;
+	background: white;
+	box-sizing: border-box;
+}
+	header{
+	    text-align: center;
+	    height: 10%; 
+	    padding: 3%; 
+	    background: skyblue;
+	    color: navy; 
+	}
+	aside{
+		display: inline-block;
+	    width: 15%;
+	    padding: 5%;
+	    vertical-align: top;
+	    background: white;
+	    border-right: 1px dashed; 
+	}
+	.list{
+		list-style: none;
+	}
+	    .list__link{
+			padding: 2%;
+		}
+	article{
+		position: absolute;
+	    display: inline-block;
+	    width: 65%;
+	    vertical-align: top;
+	    background: white;
+	    margin-right: -400px;
+	}
+	footer{
+		position: relative;
+		background: limegreen;
+		box-sizing: border-box;
+	    min-height: 5%;
+	}

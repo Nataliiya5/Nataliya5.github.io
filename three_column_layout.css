@@ -1,0 +1,42 @@
+.container{
+  margin: 0 auto;
+  width: 500px;
+  background: bisque;
+  box-sizing: border-box;
+  position: absolute;
+}
+header{
+text-align: center; 
+width: 
+padding: 5px; 
+background: lightsalmon;
+}
+.layout { 
+    width: 980px; 
+    margin: auto; 
+    position: relative; 
+}
+.left_column, .content, .right_column { 
+    position: absolute; 
+    color: black; 
+}
+.left_column{ 
+    background: beige; 
+    width: 180px; 
+   }
+.content { 
+    background: skyblue; 
+    width: 600px; color: #000;
+    left: 180px; 
+}
+.right_column{ 
+    background: beige; 
+    width: 200px; 
+    right: 0; 
+}
+footer{
+    
+    background: limegreen;
+    box-sizing: border-box;
+    height: 40px;
+  }
